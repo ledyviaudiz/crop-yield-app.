@@ -1,0 +1,8 @@
+{
+  "friedman_statistic": 236.60337552742612,
+  "p_value": 1.9603220872385062e-47,
+  "n_countries": 79,
+  "critical_difference": 1.181260269480749,
+  "significant_pair_count": 17,
+  "total_pair_count": 28
+}

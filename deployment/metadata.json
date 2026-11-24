@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-08-14T08:17:17.891630",
+  "seed": 42,
+  "dataset_rows": 28151,
+  "countries_all": 98,
+  "countries_development": 79,
+  "countries_heldout": 19,
+  "time_split_threshold_year": 2009,
+  "final_timebased_scenario": "S3 - FC1+FC2+FC3",
+  "final_timebased_model": "LightGBM",
+  "best_timebased_R2": 0.9491834273272999,
+  "best_timebased_RMSE": 21256.78662163536,
+  "best_groupkfold_scenario_by_mean_model_R2": "S3 - FC1+FC2+FC3",
+  "s3_directly_tested_on_heldout": true,
+  "training_seconds_excluding_tuning": 503.17,
+  "pipeline_seconds_including_tuning": 1797.86,
+  "total_optuna_trials": 400,
+  "mape_role": "supplementary; model selection prioritizes R2, RMSE, and MAE",
+  "proxy_notes": {
+    "fc1_gdd": "annual thermal-excess proxy, not accumulated daily GDD",
+    "fc1_pet": "temperature-based PET proxy, not full monthly Thornthwaite PET",
+    "fc4_tgsl": "normalized thermal suitability proxy",
+    "co2_ppm": "temporal trend proxy; not causal evidence"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "handle_unknown": "ignore",
+  "heldout_rows": 4298,
+  "all_zero_country_vectors": 4298,
+  "proportion_all_zero": 1.0,
+  "implication": "held-out-country predictions cannot use a country-specific indicator"
+}

@@ -1,0 +1,8 @@
+{
+  "pest_min": 0.04,
+  "pest_max": 335742.0,
+  "pest_std": 52980.33923143301,
+  "year_min": 1990,
+  "year_max": 2009,
+  "thermal_proxy_max": 20.32
+}

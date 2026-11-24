@@ -1,0 +1,8 @@
+{
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "logical_cpu_count": 2,
+  "physical_cpu_count": 1,
+  "ram_gb": 12.67,
+  "gpu": "Not available"
+}

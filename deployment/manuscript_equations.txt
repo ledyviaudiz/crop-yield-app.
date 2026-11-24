@@ -1,0 +1,23 @@
+MANUSCRIPT EQUATIONS (copy with Microsoft Word Equation)
+
+(1) General regression objective:
+    f_hat = arg min_f [ (1/n) sum_{i=1}^n L(y_i, f(x_i)) + lambda Omega(f) ]
+
+(2) Standard daily growing degree days (reference formula):
+    GDD_d = max( ((T_max,d + T_min,d)/2) - T_base, 0 )
+
+(3) Standard accumulated growing degree days:
+    AGDD_y = sum_{d=1}^{D_y} GDD_d
+
+(4) Approximation actually used in this study (annual thermal-excess proxy):
+    GDD_proxy,y = max(T_mean,y - T_base, 0), T_base = 10 degrees C
+
+(5) Training-fitted year normalization and transforms:
+    Year_norm = (Year - Year_min,train)/(Year_max,train - Year_min,train)
+    Year_sin = sin(2*pi*Year_norm)
+    Year_cos = cos(2*pi*Year_norm)
+
+(6) XGBoost regularization:
+    Omega(f_k) = gamma*T_k + (lambda/2) sum_{j=1}^{T_k} w_kj^2
+
+Important: GDD_proxy is not accumulated daily GDD; fc1_pet is a temperature-based PET proxy, not the full monthly Thornthwaite procedure.

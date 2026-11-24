@@ -1,0 +1,11 @@
+Scenario,Feature_Count
+S0 - Baseline (Country+Crop+Year),90
+S1 - Primitif,94
+S2 - FC1+FC2,108
+S3 - FC1+FC2+FC3,120
+S4 - Full FC,131
+A1 - Primitif+FC1,102
+A2 - Primitif+FC2,100
+A3 - Primitif+FC3,106
+A4 - Primitif+FC4,98
+A5 - Primitif+FC5,101
